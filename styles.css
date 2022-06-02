@@ -1,13 +1,36 @@
 body {
     height: 1024px;
+    font-family: 'Pathway Gothic One', sans-serif;
 }
 
 header {
+    background-image: url('https://hdqwalls.com/wallpapers/batman-logo-10k-24.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
     display: flex;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
     background-color: #e6e6e6;
     height: 188.19px;
+}
+
+.navbar {
+    background-color: #efecec;
+    list-style-type: none;
+    margin: .5rem;
+    padding: .2rem;
+    border-radius: 5px;
+    color: black
+}
+
+.navbar a {
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: blue
 }
 
 h1  {
@@ -64,4 +87,8 @@ footer h3 {
 .icons {
     letter-spacing: 1rem;
     margin-left: 20px;
+}
+.icons a{
+    color: white;
+    text-decoration: none;
 }
